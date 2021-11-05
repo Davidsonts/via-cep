@@ -1,0 +1,19 @@
+{
+    "name": "davidsonts/viacep",
+    "description": "DARF digitable line for barcode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davidson Santos",
+            "email": "davidsonts@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Davidsonts\\ViaCep\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
