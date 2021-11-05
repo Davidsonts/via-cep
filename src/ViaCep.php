@@ -4,7 +4,7 @@ namespace Davidsonts\ViaCep;
 
 class ViaCep {
   
-    private $url = 'https://viacep.com.br/ws/';
+    private static $url = 'https://viacep.com.br/ws/';
     
     public static function pegarEnderecoPorCep($cep) {
       $url = self::$url . $cep . '/json/';
